@@ -2,7 +2,9 @@ This code is a simple demonstration of taking and displaying real-time data from
 
 Currently the Shake will need to be configured to stream UDP packets to the IP address of the computer running Mu:
 
-For example, if the ip address of the machine running Mu is 192.168.1.5, edit /opt/settings/user’/UDP-data-streams.conf.tpl
+For example, if the ip address of the machine running Mu is 192.168.1.5, edit /opt/settings/user’/UDP-data-streams.conf
+
+(note that there is also a UDP-data-streams.conf.tpl file - this is the templet, cot the actual config)
 
 ```{
     "UDP-destinations" : [
